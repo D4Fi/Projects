@@ -1,0 +1,40 @@
+ul {
+	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(imagens/fundo-horizontal.png) repeat-x;
+	float: left;
+}
+
+ul li {
+	
+	float: left;
+}
+
+ul a {
+	display: block;
+	padding: 0 2em;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(imagens/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a {
+	background: none;
+}
+
+ul a:houver {
+	color: #085662;
+	background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}

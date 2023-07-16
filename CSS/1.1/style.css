@@ -1,0 +1,45 @@
+#back {
+    background: url('imagem/fundo.png');
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#imagem {
+    width: 900px;
+}
+
+#borda {
+    background: #c5c5b2;
+    padding: 18px;
+}
+
+a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.foto {
+border: 10px solid #c3c3ae;
+}
+
+#conteudo {
+    background: #e8e8d9;
+}
+#rodape {
+    background: #c5c5b2;
+    padding: 10px;
+
+}
+
+h1 {
+    color: #828271;
+    font-size: 1,2em
+}
+
+#contato {
+    background: #e8e8d9;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
