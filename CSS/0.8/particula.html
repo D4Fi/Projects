@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+    <style>
+    * {color: #fff;}
+body {background-color: gray;}
+#container {
+  width: 200px;
+  height: 150px;
+  margin:0 auto;
+  background-color: black;
+}
+.position-1 {
+  width: 50px;
+  height: 50px;
+  background-color: #545454;
+  border-radius: 100%;
+  text-align: center;
+}
+.top, .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #c49d9d;}
+.center {
+  width: 100%;
+  background-color: #c49d9d;}
+.position-2 {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #545454;
+  border-radius: 100%;
+  text-align: center;
+}
+@keyframes particula-move {
+  0%{margin-left:0px; margin-top: 0px;}
+  25%{margin-left: 160px; margin-top: 0px;}
+  50%{margin-left: 85px; margin-top: 45px;}
+  75%{margin-left: 5px; margin-top: 100px;}
+  100%{margin-left: 160px; margin-top: 100px;}
+}
+.particula {
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+  margin-top: 13px;
+  background-color: #423838;
+  border-radius: 100%;
+  animation: particula-move 5s infinite;
+  animation-direction: alternate;
+}
+    </style>
+  </head>
+  <body>
+    <div id='container'>
+      <div class='top'>
+        <div class='position-1'>1
+          <div class='particula'>-e</div>
+        </div>
+        <div class='position-1'>2</div>
+      </div>
+      <div class='center'>
+        <div class='position-2'>3</div>
+      </div>
+      <div class='bottom'>
+        <div class='position-1'>4</div>
+        <div class='position-1'>5</div>
+      </div>
+    </div>
+  </body>
+</html>

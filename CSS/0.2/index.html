@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+    <style>
+      :root {
+        --abbrev: 1px solid red;
+        --color0: #fff;
+        --color1: #F6F0E0;
+        --color2: #CCC8B3;
+        --color3: #DDDBC6;
+        --color4: #BFBD93;}
+
+      body {background-color: gray;}
+      #container {width: 50%; margin: 0 auto;}
+      #top {width: 100%; height: 30px; background: var(--color1);}
+
+      #lado {width: 20%; height: 300px; disply: flex; float: left;}
+        #left-1 {width: 100%; height: 30%; background: var(--color2);}
+        #left-2 {width: 100%; height: 30%; background: var(--color1);}
+
+      #article {width: 80%; height: 300px; background: var(--color3); float: right;}
+      #footer-bar {width: 100%; height: 30px; background: var(--color4); float: right;}
+    </style>
+  </head>
+  <body>
+    <div id='container'>
+      <div id='top'>top</div>
+      <div id='lado'>
+        <div id='left-1'>div 1</div>
+        <div id='left-2'>div 2</div>
+      </div>
+      <div id='article'>article</div>
+      <div id='footer-bar'>footer</div>
+    </div>
+  </body>
+</html>

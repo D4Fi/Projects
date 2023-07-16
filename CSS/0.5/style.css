@@ -1,0 +1,39 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {background-color: gray; color: #fff;}
+
+/*DIA !*/
+.container {background-color: #c9c9c9; width: 1000px;}
+.foto-user1 {width: 200px; height: 200px;background-image: url('user.png'); background-size: cover; float: left; z-index: 1;}
+
+.animation1,  .animation2, .animation3 {width: 200px; height: 200px; opacity: 0.0; padding: 50% 40%;}
+	.animation1 {background-color: #008cba;}
+	.animation2 {background-color: black;}
+	.animation1:hover, .animation2:hover {transition: all 0.5s; opacity: 0.5}
+
+.animation2 button {padding: 10%; margin: 0 auto; background-color: #04aa6d;}
+
+/*DIA 2*/
+.frente {width: 200px; height: 400px; transform: translate(0px, -200px);}
+	.animation3 {width: 200px; height: 200px; background-color: #008cba; opacity: 1.0;}
+	.frente:hover {transform: translate(0px, 0px); transition: all 0.5s;}
+
+/*DIA 3*/
+.foto-1 {width: 200px; height: 200px; background-color: red; position: relative;}
+
+.overlay-bottom {
+	position: absolute;
+	bottom: 0;
+	background-color: red;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+
+
+}
+
+.foto-1:hover .overlay-bottom {height: 100%;}
+
+
+
+
+

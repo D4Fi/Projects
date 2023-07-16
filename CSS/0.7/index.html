@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+    <style>
+    :root {
+  --top: #F3F2ED;
+  --menu: #CCC8B3;
+  --test: #F6F0E0;
+  --footer: #BFBD93;
+}
+
+* {padding: 0; margin: 0; box-sizing: border-box;}
+body {background-color: gray;}
+
+#container {width: 1000px; margin: 0 auto; border: 1px solid black;}
+header {width: 100%; height: 50px; background-color: var(--top);}
+section {width: 100%; display: flex;  justify-content:  space-between;}
+
+.menu {
+  width: 190px;
+  height: 200px;
+  background-color: var(--menu);
+}
+
+.test {width: 100%px; height: 100px; background-color: var(--test)}
+footer {width: 100%px; height: 50px; background-color: var(--footer)}
+    </style>
+  </head>
+  <body>
+    <div id='container'>
+      <header>1</header>
+      <section>
+        <div class='menu'>2</div>
+        <div class='menu'>3</div>
+        <div class='menu'>4</div>
+        <div class='menu'>5</div>
+        <div class='menu'>6</div>
+      </section>
+      <div class='test'>7</div>
+      <footer>8</footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+:root {
+	--MAX: 100%;
+	--color0: #CCC8B3;
+	--color1: #BFBD93;
+}
+
+* {margin: 0; padding: 0;}
+
+body {background: gray;}
+
+.container {width: 600px; margin: 0 auto;}
+
+.top, .footer-bar {width: var(--MAX); height: 30px; background-color: var(--color1);}
+
+.meio {width: var(--MAX); height: 200px; display: flex;}
+	.left-1 {width: 70%; height: var(--MAX); background-color: var(--color0);}
+	.right-1 {width: 30%; height: var(--MAX); margin-left: 20px; background-color: var(--color0);}

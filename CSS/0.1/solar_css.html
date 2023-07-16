@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+
+    <style>
+    @keyframes rotacao {
+  0% {
+  transform: rotate(0deg);
+  }
+
+  100% {
+   transform: rotate(36000deg);
+  }
+}
+
+#container {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.sol {
+  width: 100px;
+  height: 100px;
+  background-color: #ffed00;
+  border-radius: 100%;
+  animation-timing-function: linear;
+  animation: rotacao 1000s infinite;
+}
+
+.terra {
+  width: 30px;
+  height: 30px;
+  margin: -100px;
+  background-color: #043893;
+  border-radius: 100%;
+  animation-timing-function: linear;
+  animation: rotacao 1000s infinite;
+}
+
+.lua {
+  width: 15px;
+  height: 15px;
+  margin: -50px;
+  background-color: gray;
+  border-radius: 100%;
+}
+    </style>
+  </head>
+  <body>
+    <div id='container'>
+      <div class='sol'>
+        <div class='terra'>
+          <div class='lua'></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
