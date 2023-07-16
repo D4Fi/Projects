@@ -1,0 +1,70 @@
+body {
+    background: #321f09;
+    margin: 0;
+	padding: 0;
+}
+
+#fist {
+    width: 829px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#header {
+    width: 829px;
+    height: 364px;
+    background: url('image/header.jpg');
+    margin: auto;
+}
+
+#menupage {
+    border: 1px solid red;
+}
+
+#sidehome {
+    width: 266px;
+    height: 280px;
+    border: 1px solid green;
+    float: left;
+}
+
+#nexthome {
+    width: 554px;
+    height: 824.39px;
+    border: 1px solid blue;
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+   display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font: 30px/24px "Calisto MT";
+    color: #FFCC66;
+    font-weight: normal;
+    display: block;
+    letter-spacing: -1px;
+    word-spacing: 0em;
+    text-indent: 0px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-left: 55px;
+}
+
+p {
+    color: #E1BF9D;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1px;
+}

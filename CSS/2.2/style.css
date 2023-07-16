@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #97b15e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #051c00;
+}
+
+p, h1 {
+    margin: 10px 10px 10px 110px;
+    width: 416px;
+}
+
+#container {
+    margin: 0 auto;
+    text-align: left;
+    width: 767px;
+}
+
+#header {
+    width: 767px;
+    height: 404px;
+    background: url('image/header.jpg') no-repeat;
+    margin: auto;
+    position: relative;
+}
+
+#header ul {
+    position: absolute;
+    top: 367px;
+    left: 100px;
+    list-style-type: none;
+    display: inline;
+    margin-left: -20px;
+}
+
+#header li {
+    margin-left: 19px;
+    list-style-type: none;
+    display: inline;
+}
+
+#header a {
+    color:#aefa0d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#header a:hover {
+   color: #97b15e;
+}
+
+#welcome {
+    width: 766px;
+    height: 202px;
+    background-image: url('image/dj.gif');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#newpost {
+    float: left;
+    width: 275px;
+    display; inline;
+}
+
+#newpost img {
+    float: left;
+    margin: 10px;
+}
+
+#dj {
+    margin-left: 100px;
+}
+
+
+#footer a {
+    color: #80ba04;
+}
+
+
+#footer a:hover {
+    color:#aefa0d
+}
+
+#footer p {
+    margin-left: 280px;
+}

@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+.text {
+    color: #E7B12D;
+    font-size: 14px;
+    font-weight: bold;
+}
+.textp {
+   font-size: 11px;
+}
+
+#nav {
+
+}
+
+#container {
+    width: 820px;
+    height: 667px;
+    margin: auto;
+}
+
+#tabela {
+  background-color: red;
+  width: 196px;
+  height: 167px;
+  margin-top: -650px;
+  margin-left: 575px;
+  position: relative;
+  background: url('image/ss-bg.jpg') no-repeat;
+}
+
+#fotos {
+    position: relative;
+    float: right;
+    margin-top: -552px;
+    margin-right: 19px;
+}
+
+#logo {
+    width: 215px;
+    height: 426px;
+    background: url('image/main-left.jpg');
+    float: left;
+}
+
+#topright {
+    width: 588px;
+    height: 431px;
+    float: right;
+
+}
+
+#nav {
+    width: 588px;
+    height: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #fff;
+
+}
+
+#nav ul {
+     list-style-type: none;
+     display: inline;
+}
+
+#nav li {
+    display: block;
+     display: inline;
+     margin-left: px;
+     padding: 8px;
+
+     background: url('image/btn-bg.gif') no-repeat;
+     background-size: 100%;
+
+}
+
+
+#nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#content {
+  width: 588px;
+  height: 411px;
+  background: url('image/top-right-bg.jpg') no-repeat;
+  background-size: 100%;
+}
+
+#content p {
+    color: #BBD2A8;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+#content img {
+    margin-left: 30px;
+}
+
+
+#content h1 {
+    margin-left: 30px;
+    font-size: 20px
+}
+
+h2 {
+    color: #fff;
+}
+
+#texto-imagem {
+    color: #BBD2A8;
+    margin-left: 10px;
+    margin-top: -20px;
+    display: inline-block;
+
+}
+
+#bottom {
+  width: 820px;
+  height: 236px;
+  float: left;
+  background: url('image/main-bottom.jpg') no-repeat;
+  background-size: 100%;
+}
+
+#bottom1 {
+    width: 134px;
+    height: 157px;
+    margin-left: 15px;
+    margin-top: 60px;
+    padding-left: 35px;
+    padding-top: 15px;
+    color: #b7b7b7;
+    background: url('image/c-soon-bg.jpg') no-repeat;
+    display: inline-block;
+    float: left;
+}
+
+#videobox {
+    width: 410px;
+    height: 135px;
+    margin-left: 20px;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-top : 15px;
+    background: url('image/video-box-bg.jpg') no-repeat;
+    display: inline-block;
+    float: left;
+}
+
+.video-space {
+    margin-left: 5px;
+}
+
+#video-home {
+    width: 600px;
+    height: 40px;
+    margin-left: -80px;
+    margin-top: -21px;
+    color: #fff;
+}
+
+#video-home ul {
+    list-style-type: none;
+}
+
+#video-home li {
+    margin-left: 45px;
+    display: inline;
+}
+
+
+#video-home ul a {
+    color: #E7B12D;
+    text-decoration: none;
+}
+
+#video-home ul a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#uni {
+    margin-left:91px;
+    margin-top: -11px;
+}
+
+#clock {
+    width: 108px;
+    height: 104px;
+    margin-top: -155px;
+    margin-left: 650px;
+    display: inline-block;
+    float: left;
+}
+
+.clock1 {
+    width: 54px;
+    height: 52px;
+    background: url('image/circle-topl.jpg') no-repeat;
+    float: left;
+}
+
+.clock2 {
+    width: 54px;
+    height: 52px;
+    background: url('image/circle-topr.jpg') no-repeat;
+    float: right;
+}
+
+.clock3 {
+    width: 54px;
+    height: 52px;
+    margin-top: 52px;
+    background: url('image/circle-bottoml.jpg') no-repeat;
+}
+
+.clock4 {
+    width: 54px;
+    height: 52px;
+    margin-top: -52px;
+    margin-left: 54px;
+    background: url('image/circle-bottomr.jpg') no-repeat;
+}
+
+#bottom-bar {
+
+    text-align: center;
+    margin-left: -50px;
+}
+
+#bottom-bar ul, {
+    list-style-type: none;
+}
+
+#bottom-bar li {
+    margin-left: 10px;
+    display: inline;
+}
+
+#bottom-bar li a {
+    color: #92e80b;
+    text-decoration: none;
+}
+
+#bottom-bar li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.final {
+    color: #fff;
+    margin-left: 314px;
+    font-size: 13px;
+}
+
+.final a {
+    color: #92e80b;
+    text-decoration: none;
+}
+
+.final a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
