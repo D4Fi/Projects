@@ -1,0 +1,52 @@
+#container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #c9c9c9;
+    border-radius: 20px;
+}
+
+#container h1 {
+    text-align: center;
+}
+
+#formulario {
+    width: 200px;
+    height: 190px;
+    margin-left: 50px;
+    display: inline-block;
+    background-color: #808080;
+}
+span {
+    display: block;
+}
+
+input {
+    border: none;
+    margin-left: 40px;
+    width: 100px;
+    outline: 0;
+}
+
+.botao {
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

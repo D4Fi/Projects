@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url('image/fundo.png') repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+
+#top {
+    height: 176px;
+    background: url('image/detalhe-topo.png') no-repeat right top;
+    padding-top: 25px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url('image/divisor.png') no-repeat left center;
+}
+
+#menu ul a:hover {
+    color: #000;
+}
+
+
+#menu-center {
+    margin-top: 50px;
+    display: flex;
+
+}
+
+#one {
+    width: 180px;
+    margin-right: 15px;
+    background: url('image/fundo-caixa.png');
+}
+
+#two {
+    width: 270px;
+    margin-right: 15px;
+    background: url('image/fundo-caixa.png');
+}
+
+#tre {
+    width: 270px;
+    background: url('image/fundo-caixa.png');
+ }
+
+#rodape {
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #294c71;
+}
+
+h5 {
+
+    width: 95%;
+    color: #fff;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #294c71;
+}
+
+#one a,#one li,#one ul {
+     color: #000;
+     text-decoration: none;
+     margin: 8px;
+}
+
+#one a:hover {
+    color: #646;
+}
+
+.botaoo {
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 5px;
+    padding: 6px;
+    background: #b10333;
+}
+
+#copia img {
+   width: 270px;
+}
+
+#copia a {
+    color: red;
+}
+
+#copia a:hover {
+    color: #b10333;
+}
+
+#copia h3 {
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    background: red;
+    width: 50%;
+}
+
+#zz {
+    display: flex;
+}
+
+#copia-bottom img {
+    margin: 10px;
+    width: 40%;
+}
+
+
+#xx {
+    width: 40%;
+}
+
+#xx img {
+    width: 100px;
+    margin: 0px;
+}
+
+#yy {
+    width:60%;
+}
+
+
+
+#copia-bottom {
+    margin-top: 20px;
+}
+

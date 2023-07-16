@@ -1,0 +1,180 @@
+body {
+    background: #f4f2ec url('img/fundo.png') repeat-x;
+    font: 12px 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+
+}
+
+#container {
+    width: 1080px;
+    height: 1300px;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: #af670a;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #227115;
+}
+
+
+#menu-post {
+    margin-top: 65px;
+}
+
+
+section {
+    width: 56%;
+    float: left;
+}
+
+aside {
+    width: 40%;
+    float: right;
+    background-color: #ebe7dd;
+
+}
+
+
+#capa-img {
+    width: 100%;
+}
+
+#msg-museu {
+    width: 100%;
+}
+
+section#visita {
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0xp;
+}
+
+input {
+    width: 80px;
+    height: 20px;
+    background: #FFF;
+    border: none; 
+    font-size: 1em;
+}
+
+.botao {
+    margin-left: 10px;
+    width: 95%;
+    height: 20%;
+    padding: 15px;
+    background-color: #9b9271;
+}
+
+fieldset {
+    width: 100%;
+    border: none;
+    display: inline;
+}
+
+#visita {
+    width: 100%;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+#galery {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#imagem {
+    width: 126px;
+    height: 133px;
+    margin: 40px;
+    background: url('img/fundo-foto.png');
+}
+
+#imagem img {
+    margin-left: 14%;
+    margin-top: 14%;
+}
+
+#capa {
+}
+
+#conteudo {
+    width: 100%;
+    display: inline-block;
+}
+
+    
+
+
+#post-1 {
+    width: 50%;
+    float: left;
+}
+
+#post-2 {
+    width:50%;
+    float: left;
+}
+
+#post-3 {
+    width:50%;
+    float: left;
+}
+
+#post-4 {
+    width:50%;
+    float: left;
+}
+
+#post-4 p {
+    text-indent: 19px;
+    text-align: justify;
+}
+
+#post-3 ol {
+}
+
+#post-3 li {
+    display: block;
+}
+
+
+#rodape {
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 1200px;
+    padding: 30px 0px;
+    background-color: #c9c9c9;
+}
+
+
+
+
+

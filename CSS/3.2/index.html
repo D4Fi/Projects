@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>site</title>
+     <link rel='stylesheet' href='style.css'>
+     <script src="logica.js"></script>
+</head>
+<body>
+<div id='container'>
+    <h1>Calculo do IMC</h1>
+    <hr>
+    <div id='formulario'>
+        <form>
+            <span>Nome:</span>
+            <input type='text' placeholder='Nome'>
+            <span>Peso:</span>
+            <input id='peso' type='number' placeholder='Peso'>
+            <span>Idade:</span>
+            <input id='idade' type='number' placeholder='Idade'><br>
+            <span id='resu'></span>
+            <div onclick='dados()' class='botao'>Calcular</div>
+        </form>
+    </div>
+    <hr>
+</div>
+</body>
+</html>
