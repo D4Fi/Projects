@@ -1,0 +1,85 @@
+* {margin: 0; padding: 0;}
+
+html, body, #home {
+    height:100%;
+}
+
+body {
+    background: url(imagens/capa.png),
+                url(imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Barra de navegaçao */
+nav.navbar-transparente {
+    background: rgb(0,0,0, 0.6);
+    padding:15px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(0,0,0,0.5);
+    border-color: rgb(255,255,255,0.5);
+
+}
+
+/* Capa */
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+    
+    
+}
+
+/* Tipografia  */
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom 50px;
+    color: white;
+}
+
+@media (max-width: 575.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {font-size:3em;}
+}
+
+@media (min-width: 767px) and (max-width: 991.98px) {
+  h1 {font-size:4em;}
+}
+
+@media (min-width: 993px) and (max-width: 1199.98px) {
+  h1 {font-size:5em;}
+}
+
+@media (min-width: 1200px;) {
+    h1 {font-size:6em;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
