@@ -1,0 +1,76 @@
+* {margin: 0; padding: 0;}
+
+html {
+    background-color: #181818; 
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.centro {
+    width: 400px;
+    margin: 0 auto;
+}
+
+legend, input,  label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+legend {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+input, textarea {
+    background-color: rgb(0, 0, 0, 0.3);
+    border: none;
+    border-bottom: 1px solid #bbb;
+    padding: .75em;
+    margin: 10px 0 10px;
+    color: white;
+    outline: none;
+}
+
+
+.btn {
+    background-color: #2a2727;
+    color: white;
+    cursor: pointer;
+    padding: 1em;
+    font-size: 1.2em;
+    border: none;
+}
+
+
+input:focus,  textarea:focus {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

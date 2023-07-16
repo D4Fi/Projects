@@ -1,0 +1,37 @@
+* {margin: 0; padding: 0;}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    margin: 10px;
+}
+
+.formulario {
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+
+.btn {
+    width: fit-content;
+    margin-left: auto;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+

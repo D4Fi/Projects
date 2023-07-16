@@ -1,0 +1,29 @@
+* {margin: 0; padding: 0;}
+body {background-color: gray;}
+
+:root {
+    --top_color: #f2f2ed;
+    --sqr_color: #ccc8b3;
+    --footer_color: #bfbd93;
+}
+
+#container {width: 1000px; margin: 0 auto;}
+.top {width: 100%; height: 40px; background-color: var(--top_color);}
+
+.menu {width: 100%; display: flex; justify-content: space-between;}
+.sqr {width: 190px; height: 300px; background-color: var(--sqr_color)}
+
+.footer-bar {width: 100%; height: 40px; background-color: var(--footer_color);}
+
+
+
+
+
+
+
+
+
+
+
+
+

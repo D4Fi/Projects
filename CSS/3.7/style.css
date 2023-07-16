@@ -1,0 +1,47 @@
+* {margin: 0; padding: 0;}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container-2 {
+    background-color:#ffff; 
+    overflow: scroll;
+    height: 300px;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: row;
+    margin: 15px; 
+    border: 1px solid black;
+}
+
+
+.perfil {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.dados {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

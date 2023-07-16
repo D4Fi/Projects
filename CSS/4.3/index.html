@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+    </head>
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body {color: white; font-family: sans-serif;}
+
+        .container {
+            width: 1000px;
+            height: 500px;
+            display: flex;
+            flex-wrap: wrap;    
+            border: 1px solid Black;
+            margin: auto;
+        }
+
+        header {
+            width: 20%;
+            height: 100%;
+            background-color: #31333b;
+            float: right;
+            
+        }
+        
+        main {
+            width: 80%;
+            height: 100%;
+            background-color: #444856;
+        }
+
+        .imgg {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: gray;
+            margin: 10px;
+            float: right;
+            margin-bottom: 54px;
+        }
+        li {text-align: right; margin: 10px; border-bottom: 1px solid gray; clear: both;}
+        ul a {text-decoration: none; color: white;}
+        h1 {color: #ff7833; text-align: center;}
+        .grid {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .foto {
+            width: 200px;
+            height: 100px;
+            background-color: gray;
+            margin: 10px;
+            border: 1px solid Black;
+        }
+ 
+    </style>
+    <body>
+        <div class='container'>
+            <header>
+                <div class='imgg'></div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Tipografia</a></li>
+                        <li><a href="#">Cards</a></li>
+                        <li><a href="#">Lista</a></li>
+                        <li><a href="#">Formulario</a></li>
+                        <li><a href="#">Botoes</a></li>
+                        <li><a href="#">Tabelas</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <h1>Hello world!!</h1>
+                <div class='grid'>
+                    <div class='foto'></div>
+                    <div class='foto'></div>
+                    <div class='foto'></div>
+                    <div class='foto'></div>
+                    <div class='foto'></div>
+                </div>
+            </main>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

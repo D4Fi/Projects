@@ -1,0 +1,157 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
+
+.container {
+    width: 1020px;
+    margin:  0 auto;
+}
+
+.navegacao {
+    margin-top:3%;
+    margin-right: 100px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 13px;
+}
+
+ul li a {
+    color: yellow;
+    text-decoration: none;
+    border: 1px solid yellow;
+    padding: 10px;
+}
+
+ul li a:hover {
+    background-color: black;
+    color: #ffff;
+   border: 1px solid #ffff;
+}
+
+nav {
+    background-color: #1c1c1c; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 171px;
+    height: 79px;
+    background-image: url('img/logoAprenser.png');  
+}
+
+.boxone {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#ffff,  yellow);
+}
+
+.textob {
+    width: 350px;
+    height: 300px;
+    margin: 50px 50px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.botao3 {
+    display: inline-block;
+    color: black;
+    background-color: #b8860b;
+    padding: 11px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.imagemmulher {
+    width: 500px;
+    height: 400px;
+    background-image: url('img/HeroImage.png');
+    background-size: cover;
+}
+
+.boxtwo {
+    width: 100%;
+}
+
+.boxtwo h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 250px;
+}
+
+.imagem {
+    width: 250px;
+    height: 150px;
+    background-image: url('img/curso-design.png');
+    background-size: cover;
+}
+
+.card {
+    margin-top:34px;
+}
+
+
+.card h2 {
+    margin-left: 10px;
+    margin-top:14px;
+}
+
+.card p {
+    margin-top:14px;
+    margin-left: 10px;
+} 
+
+
+#cursos {
+    width: 100px;
+    height: 30px;
+    margin: 0 auto; 
+    margin-top: 15px;
+}
+
+#cursos a {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
