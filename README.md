@@ -1,6 +1,1 @@
-# Projects
-
-
-
-
-
+# All projects
