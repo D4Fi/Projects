@@ -1,0 +1,65 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	border-sizing: border-box;
+}
+
+.container {
+	width: 400px;
+	margin: 0  auto;
+}
+
+
+.tela {
+	width: 214px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+
+
+
+
+
+.caracter {
+	width: 214px;
+	height: 90px;
+	background-color: #363636;
+	color: white;
+	text-align: center;
+}
+
+
+.teclado {
+	width: 214px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.square {
+	width: 51px;
+	height: 40px;
+	background-color: #4f4f4f;
+	border: 1px solid #696969;
+	text-align: center;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
