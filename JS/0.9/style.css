@@ -1,0 +1,43 @@
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+.container {
+	width: 100px;
+	height: 130px;
+	margin: auto;
+	background-color: gray;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+.contador {
+	width: 60px;
+	height: 60px;
+	margin: auto;
+	background-color: White;
+	margin: auto;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.adicionar, .subtrair {
+	width: 60px;
+	height: 20px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #191970;
+}
+
+span {
+	color: White;
+	font-size: 18;
+}
+
+.contador span {
+	color: Black;
+	font-size: 18;
+}
