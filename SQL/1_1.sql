@@ -7,7 +7,7 @@ Email (texto)
 Age (inteiro)
 City (texto)
 Crie uma instrução SQL que:
-   
+     
 Insira 3 novos clientes  na tabela Customers. Os clientes devem ter as seguintes informações:
   
 Nome: João, E-mail: joao@email.com, Idade: 30, Cidade: São Paulo
