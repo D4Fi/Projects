@@ -2,7 +2,7 @@
 
 /*EXECUTE UM SELECT SIMPLES*/
 select * from Teste;
-
+ 
 /*⦁	EXECUTE UM SELECT SIMPLES COM APENAS UMA COLUNA*/
 select x from Teste;
 
