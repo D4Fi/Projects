@@ -1,4 +1,4 @@
-/**/
+
 
 /*EXECUTE UM SELECT SIMPLES*/
 select * from Teste;
