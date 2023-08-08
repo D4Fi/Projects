@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Open head end logo */
+@keyframes subir {
+  0% { 
+    margin-top: 0px;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: 0px;
+  }
+  75% {
+    margin-top: 40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+.logo-foguete {
+  color: #ffff;
+  font-family: sans-serif;
+  display: flex;
+  padding: 80px;
+  justify-content: space-between;
+  background-color: #016cc7;
+}
+
+.head-1 {
+  width: 637px;
+  height: 429px;
+}
+
+.logo {
+  width: 180px;
+  height: 70px;
+}
+
+.foguete {
+  width: 425px;
+  height: 381px;
+  animation: subir 3s linear infinite;
+}
+.logo-foguete button {
+  margin-top: 40px;
+  color: #ffff;
+  padding: 15px;
+  background-color: #dd5138;
+  border: None;
+}
+.logo-foguete button:hover {
+  color: black;
+}
+/* Close head end logo */
+.events {
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+.iconn {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin: 70px;
+}
+svg {
+  font-size: 50px;
+  margin: 10px;
+  color: red;
+}
+
