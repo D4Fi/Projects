@@ -1,3 +1,3 @@
 
-string = 'Um cachorro muito feliz estar em cima da cama'
+string = 'Um cachorro mui da cama'
 print(string.split())
