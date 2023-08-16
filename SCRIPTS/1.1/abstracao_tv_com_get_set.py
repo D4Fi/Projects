@@ -10,7 +10,7 @@ class Tv:
 
     @canalAtivo.setter
     def canalAtivo(self, newCanal):
-        self._canalAtivo = newCanal
+        self._canalAtivo = newanal
 
 tv = Tv()
 tv.canalAtivo = 100
