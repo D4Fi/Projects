@@ -1,0 +1,18 @@
+{% load static %}
+
+<div id="container">
+  {% for i in '987' %}
+  <div class="card" style="width: 18rem;">
+    <img src="{% static 'b/img/user.png' %}" class="card-img-top" alt="...">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Nome: {{i}}</li>
+      <li class="list-group-item">Idade: {{i}}</li>
+      <li class="list-group-item">Sexo: {{i}}</li>
+    </ul>
+    <div class="card-body card-button">
+      <button type="button" class="btn btn-success">Editar</button>
+      <button type="button" class="btn btn-danger">Deletar</button>
+    </div>
+  </div>
+  {% endfor %}
+</div>

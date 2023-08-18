@@ -1,0 +1,24 @@
+
+body {
+  background-color: gray;
+}
+
+#container {
+  width: 1000px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+  border: 1px solid gray;
+  
+}
+
+
+.card {
+  margin: 20px;
+}
+
+.card-button {
+  display: flex;
+  justify-content: space-evenly !important;
+}
