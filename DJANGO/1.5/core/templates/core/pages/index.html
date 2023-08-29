@@ -1,0 +1,11 @@
+<form method="post" action=".">
+	{% csrf_token  %}
+	{{ form.as_p }}
+	<button type="submit">Enviar</button>
+</form>
+
+</hr>
+
+{% for dados in pessoa %}
+	<h1>{{ dados }}</h1>
+{% endfor %}
