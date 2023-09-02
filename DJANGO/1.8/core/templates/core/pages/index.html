@@ -1,0 +1,13 @@
+<button><a href="home">HOME</a></button>
+
+<h1>========================</h1>
+</br>
+{% for dados in produto %}
+</hr>
+<h3>
+	<a href="{% url 'baki' produto_id %}">
+		Nomes: {{ dados.nome }}
+	</a>
+</h3>
+{% endfor %}
+
