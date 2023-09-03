@@ -23,21 +23,6 @@ def index(request):
         }
         return render(request, 'core/pages/index.html', context=context)
     
-    elif request.method == 'DELETE':
-        form = models.Pessoa(
-                nome=form['nome'],
-                idade=form['idade'],
-                )
-        form.save()
-
-        pessoa = models.Pessoa.objects.all()
-        form = forms.FormPessoa()
-        context = {
-            'pessoa':pessoa,
-            'form':form,
-        }
-        return render(request, 'core/pages/index.html', context=context)
-    
 def user(request):
     if request.method == 'GET':
         context = {
