@@ -1,0 +1,13 @@
+body {
+	background-color: gray;
+}
+
+.size-table {
+	width: 400px;
+}
+
+.size-form {
+	width: 400px;
+	padding: 30px;
+}
+

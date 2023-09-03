@@ -1,0 +1,23 @@
+<section class="size-table">
+	<table class="table table-dark table-striped">
+		<thead>
+			<tr>
+				<th>nome</th>
+				<th>idade</th>
+				<th>config</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for pessoa in pessoa %}
+				<tr>
+					<th>{{ pessoa.nome }}</th>
+					<th>{{ pessoa.idade }}</th>
+					<th>
+						<button class="btn btn-danger">Excluir</button>
+						<button class="btn btn-gray"><a href="{% url 'user' %}">Editar</a></button>
+					</th>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</section>

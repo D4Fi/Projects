@@ -1,0 +1,14 @@
+<section class="size-form bg-secondary">
+	<form method="post" action=".">
+		{% csrf_token %}
+		<div class="mb-3">
+			<label for="id_nome" class="form-label">Name</label>
+			<input type="text" class="form-control" required id="id_nome" name="nome">
+		</div>
+		<div class="mb-3">
+			<label for="id_idade" class="form-label">Idaade</label>
+			<input type="number" class="form-control" required id="id_idade" name="idade">
+		</div>
+		<button type="submit" class="btn btn-primary">Create</button>
+	</form>
+</section>
