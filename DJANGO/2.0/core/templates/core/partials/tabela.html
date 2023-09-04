@@ -1,0 +1,33 @@
+<table class="table table-dark table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Valor</th>
+      <th scope="col">Estoque</th>
+			<th scope="col">
+				<a href="adicionar">
+					<button class="btn btn-primary">+</button>
+				</a>
+			</th>
+    </tr>
+  </thead>
+  <tbody>
+		{% for dados in produto %}
+		<tr>
+			<td>{{ dados.name }}</td>
+			<td>{{ dados.valor }}</td>
+			<td>{{ dados.estoque }}</td>
+			<td scope="col">
+				<a href="{% url 'delete' dados.id %}">
+					<button class="btn btn-danger">Delete</button>
+				</a>
+			</td>
+			<td scope="col">
+				<a href="{% url 'produto' dados.id %}">
+					<button class="btn btn-info">Info</button>
+				</a>
+			</td>
+		</tr>
+		{% endfor %}
+  </tbody>
+</table>

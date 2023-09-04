@@ -1,0 +1,22 @@
+{% extends 'core/partials/body.html' %}
+
+{% block 'view-user' %}
+<form type="post">
+  <div class="mb-3">
+    <label for="name" class="form-label">Nome:</label>
+    <input type="text" class="form-control" id="name">
+  </div>
+  <div class="mb-3">
+    <label for="number" class="form-label">Valor</label>
+    <input type="number" class="form-control" id="number">
+  </div>
+	<div class="mb-3">
+    <label for="number" class="form-label">Estoque</label>
+    <input type="number" class="form-control" id="number">
+	</div>
+		<button type="submit" class="btn btn-primary">Adicionar</button>
+</form>
+<a href="/">
+	<button class="btn btn-warning">Voltar</button>
+</a>
+{% endblock %}
