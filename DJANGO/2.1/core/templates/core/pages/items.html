@@ -1,0 +1,12 @@
+{% extends 'core/partials/body.html' %}
+
+{% block 'view-user' %}
+<div class="card bg-secondary" style="width: 18rem;">
+  <div class="card-body">
+	  <h5 class="card-title">{{ item.name }}</h5>
+	  <p class="card-text">VALOR: {{ item.valor }}</p>
+	  <p class="card-text">ESTOQUE: {{ item.estoque }}</p>
+    <a href="/" class="btn btn-primary">VOLTAR</a>
+  </div>
+</div>
+{% endblock %}
