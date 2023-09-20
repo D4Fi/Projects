@@ -1,0 +1,34 @@
+body {
+}
+
+/* OPEN MENU-PRODUTOS */
+.menu-produtos {
+	width: 1000px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	justify-content: center;
+	background-color: gray;
+}
+/* CLOSE MENU-PROTUDOS */
+
+/* OPEN CARD */
+.card {
+	width: 250px;
+	height: 400px;
+	margin: 20px;
+	background-color: #c9c9c9;
+}
+
+.card-logo {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.card-logo img {
+	width: 100%;
+	height: 100%;
+}
+/* CLOSE CARD */

@@ -1,0 +1,27 @@
+{% extends 'core/partials/base.html' %}
+{% block 'base' %}
+
+<section class="menu-produtos">
+{% for i in dados %}
+	<div class="card">
+		<div class="card-logo">
+			<img src="{{ i.img_produto.url }}" alt="">
+		</div>
+		<div>
+			<h1>Nome: {{ i.nome }}</h1>
+			<h1>Valor: {{ i.valor }}</h1>
+			<h1>Estoque:{{ i.estoque }}</h1>
+		</div>
+		<div>
+			<a>
+				<button height="100px">More...</button>
+			</a>
+			<a>
+				<button>Delet</button>
+			</a>
+		</div>
+	</div>
+{% endfor %}
+</section>
+
+{% endblock %}
