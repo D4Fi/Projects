@@ -1,0 +1,26 @@
+{% extends 'core/partials/base.html' %}
+
+
+
+
+
+{% block 'tabela' %}
+
+<table>
+	<thead>
+		<tr>
+			<th>Nome</th>
+			<th>Foto</th>
+		</tr>
+	</thead>
+	{% for user in dados %}
+	<tbody>	
+		<tr>
+			<th><h3>{{ user.nome }}</h3></th>
+			<th><img src="{{ user.img_anime.url }}" alt=""></th>
+		</tr>
+	</tbody>
+	{% endfor %}
+</table>
+{% endblock%}
+

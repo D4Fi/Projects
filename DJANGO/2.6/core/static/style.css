@@ -1,0 +1,21 @@
+body{
+	background-color: gray;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.titulo{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	border: 1px solid blue;
+}
+.box-products{
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid cyan;
+}

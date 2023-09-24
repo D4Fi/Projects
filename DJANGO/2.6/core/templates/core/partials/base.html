@@ -5,12 +5,28 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>HTML 5 Boilerplate</title>
-		<link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+		<title></title>
+		<link rel="stylesheet" href=" {% static 'style.css' %}">
 	</head>
 	<body>
-		{% block 'base' %}
-			<h1>NADA AQUI</h1>
-		{% endblock %}
+
+		<section class="container">
+			<div class="base-box">
+				
+				<div class="titulo">
+				{% block 'titulo' %}
+					<h1>titulo</h1>
+				{% endblock %}
+				</div>
+
+				<div class="box-products">
+				{% block 'tabela' %}
+					<h1>produtos</h1>
+				{% endblock %}
+				</div>
+
+			</div>
+		</section>
+
 	</body>
 </html>

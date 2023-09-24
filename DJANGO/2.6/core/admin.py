@@ -1,6 +1,6 @@
 from django.contrib import admin
 from . import models
 
-@admin.register(models.ModelsProduto)
-class Adminproduto(admin.ModelAdmin):
+@admin.register(models.ModelAnime)
+class AdminAnime(admin.ModelAdmin):
     pass
