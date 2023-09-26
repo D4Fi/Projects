@@ -1,0 +1,30 @@
+:root{
+	--dark: #272d38;
+	--primary-color: #8eadd5;
+}
+
+
+.base{
+	width: 100%;
+}
+
+.container{
+	width: 500px;
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	border: 1px solid red;
+}
+
+.container button{
+	color: #fff;
+	background-color: var(--primary-color);
+	border-radius: 15px;
+	border: none;
+	padding: 15px;
+}
+
+.container button:hover{
+	background-color: var(--dark);
+}
+
